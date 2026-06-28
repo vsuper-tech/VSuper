@@ -1,30 +1,74 @@
-# VSuper App
+# VSuper – All-in-One Super App
 
-**An All-in-One Super App** currently in active development.
+![VSuper Banner](./screenshots/shop-tab.jpg)
 
-## About the Project
-VSuper is a comprehensive platform combining multiple useful features into one application. The goal is to build a powerful, scalable, and user-friendly super app.
+**An All-in-One Super App** currently under active development.
 
-## Main Features
-- Intelligent Voucher & Promotion Management
-- AI Tools for document and content generation
-- Multi-Payment Gateway & Digital Wallet
-- Content Filtering & Activity Management
-- Multi-Role System (Admin, Shop, User, etc.)
+## About
 
-## Current Status
-- Project is under active development
-- Repository is private for now
-- Regular updates and improvements
+VSuper is a next-generation super app designed to bring multiple digital services together into a single platform.
 
-## Technologies & Tools
-- Various modern tools and frameworks (in progress)
+### Key Features
 
-## How to Contribute
-I'm open to feedback, suggestions, and collaboration from the community.
+* 🛍️ **Marketplace** (Products, Courses & Services)
+* 🤖 **AI-Powered Tools**
+* 🎟️ **Voucher & Promotion System**
+* 💳 **Payments & Digital Wallet**
+* 🎥 **TikTok-style Video Feed**
+* 📍 **Local Services**
+* 🎁 **Rewards & Loyalty System**
 
-Feel free to open Issues for any ideas or questions.
+Our goal is to create a comprehensive ecosystem where users can learn, shop, earn, and access everyday services—all within one application.
+
+The project is currently in the **MVP development stage**, and we are looking for contributors and collaborators from around the world.
 
 ---
 
-⭐ If you're interested in this project, feel free to star the repo!
+## Current Status
+
+* 🚧 Actively under development
+* ✅ Core UI has been completed
+* 🌍 Public repository open for collaboration
+
+---
+
+## We're Looking For
+
+We warmly welcome support from the community, including:
+
+* 💻 Frontend, Backend, Mobile & AI Developers
+* 🎨 UI/UX Designers
+* 🧪 Beta Testers
+* 📢 Content Creators & Digital Marketers
+* 💼 Investors & Strategic Partners
+* 💡 Anyone with ideas, feedback, or suggestions
+
+**Every contribution—big or small—is greatly appreciated!**
+
+---
+
+## How to Contribute
+
+1. ⭐ Star this repository to support the project.
+2. 🐞 Open an Issue to report bugs, suggest features, or share ideas.
+3. 🔧 Submit a Pull Request if you'd like to contribute code.
+4. 🤝 Contact us directly if you're interested in long-term collaboration as a developer, designer, investor, or partner.
+
+---
+
+## Contact
+
+📧 **Collaboration Email:** **[letiendat1403.vn@gmail.com](mailto:letiendat1403.vn@gmail.com)**
+
+🐛 **GitHub Issues:**
+https://github.com/vsuper-tech/VSuper/issues
+
+💬 **Discord / Zalo / Telegram:** Coming Soon
+
+---
+
+## Thank You!
+
+Thank you for your interest in **VSuper**.
+
+Together, let's build a world-class Vietnamese Super App for everyone. 🚀
