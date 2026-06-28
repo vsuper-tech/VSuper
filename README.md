@@ -1,6 +1,6 @@
 # VSuper – All-in-One Super App
 
-![VSuper Banner](./screenshots/shop-tab.jpg)
+./index.html
 
 **An All-in-One Super App** currently under active development.
 
