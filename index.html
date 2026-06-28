@@ -8,94 +8,106 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <style>
     body { font-family: system-ui, -apple-system, sans-serif; }
-    .hero {
-      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-    }
-    .card-hover:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    }
+    .hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); }
+    .card { transition: all 0.3s ease; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3); }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-zinc-950 text-white">
 
-  <!-- Hero Section -->
-  <section class="hero text-white py-28 text-center">
-    <div class="max-w-5xl mx-auto px-6">
-      <h1 class="text-7xl font-bold mb-4 tracking-tight">VSuper</h1>
-      <p class="text-3xl mb-6">All-in-One Super App</p>
-      <p class="text-xl max-w-2xl mx-auto opacity-90">
-        A powerful and comprehensive platform that combines multiple useful tools into one seamless application.
-      </p>
-      <div class="mt-12">
-        <a href="#features" 
-           class="inline-block bg-white text-blue-700 hover:bg-gray-100 px-10 py-4 rounded-full text-xl font-semibold transition">
-          Explore Features →
-        </a>
+  <!-- Top Navigation -->
+  <nav class="bg-black border-b border-zinc-800 py-4">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <span class="text-2xl font-bold text-blue-500">V</span>
+        <span class="text-2xl font-bold">Super</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#" class="hover:text-blue-400">Marketplace</a>
+        <a href="#" class="hover:text-blue-400">AI Tools</a>
+        <a href="#" class="hover:text-blue-400">Learning</a>
+        <a href="#" class="hover:text-blue-400">Jobs</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <button class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg text-sm font-medium">Star on GitHub</button>
       </div>
     </div>
-  </section>
+  </nav>
 
-  <!-- About -->
-  <section class="py-20 bg-white">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-6">About VSuper</h2>
-      <p class="text-lg text-gray-600 leading-relaxed">
-        VSuper is an ambitious All-in-One Super App currently under active development. 
-        Our goal is to create a modern, scalable, and user-friendly platform that brings together 
-        essential tools for both individuals and businesses.
+  <!-- Hero Section -->
+  <section class="hero py-24 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h1 class="text-6xl md:text-7xl font-bold mb-4">VSuper</h1>
+      <p class="text-3xl text-blue-400 mb-6">All-in-One Super App</p>
+      <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+        A powerful platform combining marketplace, AI tools, payments, and more — currently in active development.
       </p>
+      <button onclick="document.getElementById('features').scrollIntoView({ behavior: 'smooth' })" 
+              class="mt-10 bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-200 transition">
+        Explore Features →
+      </button>
     </div>
   </section>
 
   <!-- Features -->
-  <section id="features" class="py-20 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-6">
+  <section id="features" class="py-20 bg-zinc-900">
+    <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-4xl font-bold text-center mb-16">Key Features</h2>
+      
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-8 rounded-3xl card-hover transition">
-          <i class="fas fa-ticket-alt text-5xl text-blue-600 mb-6"></i>
+        <!-- Card 1 -->
+        <div class="bg-zinc-800 rounded-3xl p-8 card">
+          <div class="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <i class="fas fa-ticket-alt text-4xl text-blue-500"></i>
+          </div>
           <h3 class="text-2xl font-semibold mb-3">Smart Voucher System</h3>
-          <p class="text-gray-600">Intelligent management and redemption of promotions and vouchers.</p>
+          <p class="text-gray-400">Intelligent promotion management and easy redemption.</p>
         </div>
-        <div class="bg-white p-8 rounded-3xl card-hover transition">
-          <i class="fas fa-robot text-5xl text-purple-600 mb-6"></i>
-          <h3 class="text-2xl font-semibold mb-3">AI-Powered Tools</h3>
-          <p class="text-gray-600">Generate documents, content, and more with advanced AI assistance.</p>
+
+        <!-- Card 2 -->
+        <div class="bg-zinc-800 rounded-3xl p-8 card">
+          <div class="w-16 h-16 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <i class="fas fa-robot text-4xl text-purple-500"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">AI Tools</h3>
+          <p class="text-gray-400">Generate content, documents, images, and more with AI.</p>
         </div>
-        <div class="bg-white p-8 rounded-3xl card-hover transition">
-          <i class="fas fa-wallet text-5xl text-emerald-600 mb-6"></i>
-          <h3 class="text-2xl font-semibold mb-3">Multi-Payment & Wallet</h3>
-          <p class="text-gray-600">Seamless payments with multiple gateways and digital wallet support.</p>
+
+        <!-- Card 3 -->
+        <div class="bg-zinc-800 rounded-3xl p-8 card">
+          <div class="w-16 h-16 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <i class="fas fa-wallet text-4xl text-emerald-500"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Payments & Wallet</h3>
+          <p class="text-gray-400">Multiple payment gateways and secure digital wallet.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Screenshots -->
-  <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">App Preview</h2>
-      <div class="grid md:grid-cols-2 gap-10">
-        <div>
-          <img src="https://via.placeholder.com/700x420/1e40af/ffffff?text=VSuper+Dashboard" 
-               class="rounded-3xl shadow-2xl w-full" alt="VSuper Dashboard">
+  <!-- Marketplace Preview -->
+  <section class="py-20 bg-black">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-4">Marketplace Preview</h2>
+      <p class="text-center text-gray-400 mb-12">Discover products, courses, and services</p>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden card">
+          <img src="https://via.placeholder.com/400x220/1e2937/64748b?text=Marketplace+Item" class="w-full h-52 object-cover" alt="">
+          <div class="p-6">
+            <h4 class="font-semibold">Freelance Course</h4>
+            <p class="text-sm text-gray-400 mt-1">High-level freelance skills 2026</p>
+          </div>
         </div>
-        <div>
-          <img src="https://via.placeholder.com/700x420/3b82f6/ffffff?text=AI+Interface" 
-               class="rounded-3xl shadow-2xl w-full" alt="AI Tools Interface">
-        </div>
+        <!-- Thêm nhiều card tương tự nếu muốn -->
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-16 text-center">
-    <div class="max-w-4xl mx-auto px-6">
-      <p class="text-2xl font-medium mb-4">VSuper is under active development</p>
-      <p class="mb-8">Stay tuned for exciting updates!</p>
-      <p class="text-sm opacity-70">© 2026 VSuper. All Rights Reserved.</p>
-    </div>
+  <footer class="bg-black border-t border-zinc-800 py-12 text-center">
+    <p class="text-gray-400">VSuper is currently under active development</p>
+    <p class="mt-6 text-sm text-gray-500">© 2026 VSuper • Made with ❤️ for the future</p>
   </footer>
 
 </body>
