@@ -1,71 +1,102 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VSuper - Siêu Ứng Dụng All-in-One</title>
+  <title>VSuper - All-in-One Super App</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <style>
     body { font-family: system-ui, -apple-system, sans-serif; }
-    .hero { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); }
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
   </style>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 text-gray-900">
 
-  <!-- Hero -->
+  <!-- Hero Section -->
   <section class="hero text-white py-28 text-center">
     <div class="max-w-5xl mx-auto px-6">
-      <h1 class="text-7xl font-bold mb-4">VSuper</h1>
+      <h1 class="text-7xl font-bold mb-4 tracking-tight">VSuper</h1>
       <p class="text-3xl mb-6">All-in-One Super App</p>
-      <p class="text-xl max-w-2xl mx-auto opacity-90">Siêu ứng dụng tích hợp nhiều tiện ích thông minh – Đang được phát triển mạnh mẽ</p>
-      <a href="#features" 
-         class="inline-block mt-10 bg-white text-blue-700 px-10 py-4 rounded-full text-xl font-semibold hover:bg-gray-100 transition">
-        Khám phá tính năng →
-      </a>
+      <p class="text-xl max-w-2xl mx-auto opacity-90">
+        A powerful and comprehensive platform that combines multiple useful tools into one seamless application.
+      </p>
+      <div class="mt-12">
+        <a href="#features" 
+           class="inline-block bg-white text-blue-700 hover:bg-gray-100 px-10 py-4 rounded-full text-xl font-semibold transition">
+          Explore Features →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">About VSuper</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        VSuper is an ambitious All-in-One Super App currently under active development. 
+        Our goal is to create a modern, scalable, and user-friendly platform that brings together 
+        essential tools for both individuals and businesses.
+      </p>
     </div>
   </section>
 
   <!-- Features -->
-  <section id="features" class="py-20 bg-white">
+  <section id="features" class="py-20 bg-gray-100">
     <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-16">Tính năng chính</h2>
-      <div class="grid md:grid-cols-3 gap-10">
-        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
-          <i class="fas fa-ticket-alt text-6xl text-blue-600 mb-6"></i>
-          <h3 class="text-2xl font-semibold mb-3">Voucher & Khuyến mãi</h3>
-          <p class="text-gray-600">Quản lý thông minh và sử dụng dễ dàng</p>
+      <h2 class="text-4xl font-bold text-center mb-16">Key Features</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-3xl card-hover transition">
+          <i class="fas fa-ticket-alt text-5xl text-blue-600 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Smart Voucher System</h3>
+          <p class="text-gray-600">Intelligent management and redemption of promotions and vouchers.</p>
         </div>
-        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
-          <i class="fas fa-robot text-6xl text-purple-600 mb-6"></i>
-          <h3 class="text-2xl font-semibold mb-3">Công cụ AI</h3>
-          <p class="text-gray-600">Tạo nội dung, tài liệu, hình ảnh nhanh chóng</p>
+        <div class="bg-white p-8 rounded-3xl card-hover transition">
+          <i class="fas fa-robot text-5xl text-purple-600 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">AI-Powered Tools</h3>
+          <p class="text-gray-600">Generate documents, content, and more with advanced AI assistance.</p>
         </div>
-        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
-          <i class="fas fa-wallet text-6xl text-emerald-600 mb-6"></i>
-          <h3 class="text-2xl font-semibold mb-3">Thanh toán & Ví điện tử</h3>
-          <p class="text-gray-600">Hỗ trợ nhiều cổng thanh toán an toàn</p>
+        <div class="bg-white p-8 rounded-3xl card-hover transition">
+          <i class="fas fa-wallet text-5xl text-emerald-600 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Multi-Payment & Wallet</h3>
+          <p class="text-gray-600">Seamless payments with multiple gateways and digital wallet support.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Screenshots -->
-  <section class="py-20 bg-gray-100">
+  <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Giao diện ứng dụng</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <img src="https://via.placeholder.com/700x420/1e40af/ffffff?text=VSuper+Home" 
-             class="rounded-3xl shadow-xl" alt="VSuper Home">
-        <img src="https://via.placeholder.com/700x420/3b82f6/ffffff?text=AI+Tools" 
-             class="rounded-3xl shadow-xl" alt="AI Tools">
+      <h2 class="text-4xl font-bold text-center mb-12">App Preview</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <img src="https://via.placeholder.com/700x420/1e40af/ffffff?text=VSuper+Dashboard" 
+               class="rounded-3xl shadow-2xl w-full" alt="VSuper Dashboard">
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/700x420/3b82f6/ffffff?text=AI+Interface" 
+               class="rounded-3xl shadow-2xl w-full" alt="AI Tools Interface">
+        </div>
       </div>
     </div>
   </section>
 
-  <footer class="bg-gray-900 text-white py-12 text-center">
-    <p class="text-xl">Dự án đang trong giai đoạn phát triển</p>
-    <p class="mt-6">⭐ Nếu bạn quan tâm, hãy theo dõi repo này!</p>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-16 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <p class="text-2xl font-medium mb-4">VSuper is under active development</p>
+      <p class="mb-8">Stay tuned for exciting updates!</p>
+      <p class="text-sm opacity-70">© 2026 VSuper. All Rights Reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
