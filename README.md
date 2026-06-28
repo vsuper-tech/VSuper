@@ -26,9 +26,10 @@ The project is currently in the **MVP development stage**, and we are looking fo
 
 ## Current Status
 
-* 🚧 Actively under development
-* ✅ Core UI has been completed
-* 🌍 Public repository open for collaboration
+✅ UI/UX Completed
+🚧 MVP in Development
+🌍 Open Source
+🤝 Looking for Contributors
 
 ---
 
@@ -55,7 +56,16 @@ We warmly welcome support from the community, including:
 4. 🤝 Contact us directly if you're interested in long-term collaboration as a developer, designer, investor, or partner.
 
 ---
+💼 Founding Team & Equity
 
+Early contributors may receive:
+
+🚀 Founding Team Membership
+⭐ Equity (Negotiable)
+🤝 Long-term Partnership
+
+Equity is based on contribution, expertise, commitment, and mutual agreement.
+---
 ## Contact
 
 📧 **Collaboration Email:** **[letiendat1403.vn@gmail.com](mailto:letiendat1403.vn@gmail.com)**
