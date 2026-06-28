@@ -1,6 +1,6 @@
 # VSuper – All-in-One Super App
 
-./index.html
+[🚀 Open Live Demo](https://vsuper-tech.github.io/VSuper/)
 
 **An All-in-One Super App** currently under active development.
 
