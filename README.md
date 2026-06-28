@@ -2,7 +2,7 @@
 
 [🚀 Open Live Demo](https://vsuper-tech.github.io/VSuper/)
 
-[![VSuper Banner](./screenshots/shop-tab.jpg)](https://vsuper-tech.github.io/VSuper/)
+![VSuper Banner](./full-app.jpg)(https://vsuper-tech.github.io/VSuper/)
 **An All-in-One Super App** currently under active development.
 
 ## About
